@@ -1,0 +1,19 @@
+= Punteggi CyberCup v2023
+
+Per eseguire il notebook è necessario:
+
+. Installare https://julialang.org/[Julia]
+. Installare https://plutojl.org/[Pluto.jl]
+. Clonare il repository
++
+[source, bash]
+git clone https://github.com/CyberCup/punteggi_2023.git
+. Aprire una console con julia
++
+[source, bash]
+julia
+. Aprire Pluto
++
+[source, julia]
+import Pluto; Pluto.run()
+. Nella finestra web del browser appena aperta, aprire il file `punteggio.jl`
